@@ -6,8 +6,8 @@ var _createConnection = function(ip, banco){
 		db = mongoose.connect('mongodb://'+ip+'/'+banco).connection;
 	else
 		db = mongoose.connect('mongodb://localhost/react').connection;
-	db.on('open', function(){
-		console.log('Conectado a '+ip+'/'+banco);
+	db.on('connected', function(){
+		console.log('Mongodb Conectado a '+ip+'/'+banco);
 	});
 	db.on('error', function(){
 		console.log('Conexão não estabelecida!');

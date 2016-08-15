@@ -10,13 +10,13 @@
   "license": "ISC",
   "devDependencies": {
     "babel-preset-react": "^6.11.1",
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
-    "gulp-live-server": "0.0.30",
     "gulp-uglify": "^2.0.0",
-    "mongoose": "^4.5.9"
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0"
   },
   "dependencies": {
     "react": "^15.3.0",
