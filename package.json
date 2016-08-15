@@ -1,0 +1,24 @@
+{
+  "name": "mongodb",
+  "version": "1.0.0",
+  "description": "Aprendendo a usar o mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fábio Onofre",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-react": "^6.11.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-uglify": "^2.0.0",
+    "mongoose": "^4.5.9"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
