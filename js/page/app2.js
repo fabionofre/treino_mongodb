@@ -1,1 +1,1 @@
-ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('hello'));
+ReactDOM.render(React.createElement(HelloWorld, null), document.getElementById('helloMundo'));

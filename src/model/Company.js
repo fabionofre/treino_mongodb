@@ -4,9 +4,21 @@ var db = require('./Db.js');
 var _db = db.createConnection();
 
 var _company = mongoose.Schema({
-	name: String
+	name: {
+		type: String,
+		required: true
+	},
+	address: {
+		name: String,
+		number: Number,
+		city: String
+	},
+	date: {
+		type: Date,
+		required: true,
+		default: Date.now
+	}
 });
-
 var _Company = mongoose.model('Company', _company);
 
 var _createCompany = function(company){
